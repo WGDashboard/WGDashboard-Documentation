@@ -173,6 +173,10 @@ window.addEventListener("load", function(){
 	let insertDOLogo = false;
 	let insertPageBadge = false;
 	
+	const virtualSidebar = document.querySelector(".article")
+	
+	
+	
 	const callback = (mutationList, observer) => {
 		if (!window.location.href.includes(currentUrl) || !currentUrl){
 			console.log("URL Changed");
@@ -206,13 +210,14 @@ window.addEventListener("load", function(){
 				`
 				insertPageBadge = true
 				
-				document.querySelector('div[data-test=virtual-toc-sidebar]').style.height = '100%'
-				const virtualTOC = document.querySelector('.app__virtual-toc')
-				
-				if (virtualTOC){
-					virtualTOC.innerHTML += `
+				const virtualSidebarAds = document.querySelector('#virtualSidebarAds')
+				if (!virtualSidebarAds){
+					let ele = document.createElement('div')
+					ele.id = 'virtualSidebarAds'
+					virtualSidebar.insertBefore(ele, virtualSidebar.firstChild)
+					ele.innerHTML = `
 					<ins class="adsbygoogle"
-					     style="display:inline-block;width:210px;height:600px"
+					     style="display:inline-block;width:100%;height:150px"
 					     data-ad-client="ca-pub-2283617751904576"
 					     data-ad-slot="7111069725"></ins>
 					`;
