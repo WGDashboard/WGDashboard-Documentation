@@ -146,7 +146,7 @@ window.addEventListener("load", function(){
 	a.target = '_blank'
 	a.appendChild(img)
 	
-	let ele = document.querySelector('.toc')
+	let ele = document.querySelector('nav.app__sidebar .toc')
 	ele.appendChild(a);
 	ele.innerHTML += `
 		<ins class="adsbygoogle"
@@ -154,7 +154,8 @@ window.addEventListener("load", function(){
 	     data-ad-client="ca-pub-2283617751904576"
 	     data-ad-slot="4185238076"></ins>
 	`;
-	(adsbygoogle = window.adsbygoogle || []).push({});
+	
+	
 	
 	let e = document.querySelector('.wh-header__switchers');
 	let pageBadge = document.createElement("div");
@@ -204,10 +205,23 @@ window.addEventListener("load", function(){
 					<img alt="Badge" src="https://hitscounter.dev/api/hit?url=${encodeURIComponent(window.location.href)}&label=Visits&icon=eye-fill&color=%231fbba1" /></a>
 				`
 				insertPageBadge = true
+				
+				document.querySelector('div[data-test=virtual-toc-sidebar]').style.height = '100%'
+				const virtualTOC = document.querySelector('.app__virtual-toc')
+				
+				if (virtualTOC){
+					virtualTOC.innerHTML += `
+					<ins class="adsbygoogle"
+					     style="display:inline-block;width:210px;height:600px"
+					     data-ad-client="ca-pub-2283617751904576"
+					     data-ad-slot="7111069725"></ins>
+					`
+				}
 			}
 		}
 	};
 	const observer = new MutationObserver(callback);
 	observer.observe(body, config);
+	(adsbygoogle = window.adsbygoogle || []).push({});
 })
 </script>
