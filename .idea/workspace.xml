@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32bed0ad-2b71-4d1a-8277-d63a8faa5c1b" name="Changes" comment="Added languages">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="32bed0ad-2b71-4d1a-8277-d63a8faa5c1b" name="Changes" comment="Added languages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +31,12 @@
     &quot;assignee&quot;: &quot;donaldzou&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/donaldzou/WGDashboard-Documentation.git&quot;,
-    &quot;accountId&quot;: &quot;baa8db9c-ddc6-4e3b-bf21-c95d6ebf890c&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/WGDashboard/WGDashboard-Documentation.git",
+    "accountId": "baa8db9c-ddc6-4e3b-bf21-c95d6ebf890c"
   }
-}</component>
+}]]></component>
   <component name="InstanceColorv3">
     <option name="map">
       <map>
@@ -226,6 +224,7 @@
       <workItem from="1748062546544" duration="598000" />
       <workItem from="1748175315637" duration="4000" />
       <workItem from="1748175335214" duration="6000" />
+      <workItem from="1751346845067" duration="537000" />
     </task>
     <servers />
   </component>
