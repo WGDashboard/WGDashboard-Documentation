@@ -4,32 +4,240 @@
 
 Since version 2.0, WGDashboard will be using a configuration file called `wg-dashboard.ini`, (It will generate automatically after first time running the dashboard). More options will include in future versions, and for now it included the following configurations:
 
-|                              | Description                                                                                                                                                                                              | Default                                              |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
-| **`[Account]`**              | *Configuration on account*                                                                                                                                                                               |                                                      |
-| `username`                   | Dashboard login username                                                                                                                                                                                 | `admin`                                              |
-| `password`                   | Password, will be hash with SHA256                                                                                                                                                                       | `admin` hashed in SHA256                             |
-|                              |                                                                                                                                                                                                          |                                                      |
-| **`[Server]`**               | *Configuration on dashboard*                                                                                                                                                                             |                                                      |
-| `wg_conf_path`               | The path of all the Wireguard configurations                                                                                                                                                             | `/etc/wireguard`                                     |
-| `app_prefix`                 | Prefix before each path                                                                                                                                                                                  | `(blank)`                                            |
-| `app_ip`                     | IP address the dashboard will run with                                                                                                                                                                   | `0.0.0.0`                                            |
-| `app_port`                   | Port the the dashboard will run with                                                                                                                                                                     | `10086`                                              |
-| `auth_req`                   | Does the dashboard need authentication to access, if `auth_req = false` , user will not be access the **Setting** tab due to security consideration. **User can only edit the file directly in system**. | `true`                                               |
-| `version`                    | Dashboard Version                                                                                                                                                                                        | `v4.0`                                               |
-| `dashboard_refresh_interval` | How frequent the dashboard will refresh on the configuration page                                                                                                                                        | `60000ms`                                            |
-| `dashboard_sort`             | How configuration is sorting                                                                                                                                                                             | `status`                                             |
-| `dashboard_theme`            | Dashboard Theme                                                                                                                                                                                          | `dark`                                               |
-| `dashboard_api_key`          | WGDashboard API Key Function                                                                                                                                                                             | `false`                                              |
-| `dashboard_language`         | WGDashboard Language                                                                                                                                                                                     | `en`                                                 |
-|                              |                                                                                                                                                                                                          |                                                      |
-| **`[Peers]`**                | *Default Settings on a new peer*                                                                                                                                                                         |                                                      |
-| `peer_global_dns`            | DNS Server                                                                                                                                                                                               | `1.1.1.1`                                            |
-| `peer_endpoint_allowed_ip`   | Endpoint Allowed IP                                                                                                                                                                                      | `0.0.0.0/0`                                          |
-| `peer_display_mode`          | How peer will display                                                                                                                                                                                    | `grid`                                               |
-| `remote_endpoint`            | Remote Endpoint (i.e where your peers will connect to)                                                                                                                                                   | *depends on your server's default network interface* |
-| `peer_mtu`                   | Maximum Transmit Unit                                                                                                                                                                                    | `1420`                                               |
-| `peer_keep_alive`            | Keep Alive                                                                                                                                                                                               | `21`                                                 |
+### `[Account]`
+
+Configurations on how to sign in to WGDashboard
+
+#### `username`
+
+Username to sign in. 
+
+Default: `admin`
+
+#### `password`
+
+Password to sign in, and is hashed with `bcrypt.hashpw(value, bcrypt.gensalt())`. 
+
+Default: `bcrypt.hashpw("admin", bcrypt.gensalt())`
+
+#### `enable_totp`
+
+Boolean to indicate if TOTP is enabled. 
+
+Default: `false`
+
+#### `totp_verified`
+
+Boolean to indicate if TOTP is verified
+
+Default: `false`
+
+#### `totp_key`
+
+The **key** to generate TOTP
+
+Default: `pyotp.random_base32()`
+
+### `[Server]`
+
+Configuration on WGDashboard
+
+#### `wg_conf_path`
+
+The path of all the WireGuard configurations
+
+Default: `/etc/wireguard`
+
+#### `awg_conf_path`
+
+The path of all the AmneziaWG configurations
+
+Default: `/etc/amnezia/amneziawg`
+
+#### `app_prefix`
+
+**Will deprecate in future release, please review [](Add-URL-Prefix-to-WGDashboard.md)**
+
+Prefix before each path
+
+Default: `(blank)`
+
+#### `app_ip`
+
+The IP address WGDashboard will bind on
+
+Default: `0.0.0.0`
+
+#### `app_port`
+
+The port WGDashboard will listen on
+
+Default: `10086`
+
+#### `auth_req`
+
+Does the dashboard need authentication to access, if `auth_req = false` , user will not be access the **Setting** tab due to security consideration. **User can only edit the file directly in system**.
+
+Default: `true`
+
+#### `version`
+
+Dashboard Version
+
+#### `dashboard_refresh_interval`
+
+How frequent the dashboard will refresh on the configuration page, the value is in milliseconds.
+
+Default: `60000`
+
+#### `dashboard_sort`
+
+How Peers are sorting.
+
+Default: `status`
+
+#### `dashboard_theme`
+
+WGDashboard's theme
+
+Default: `dark`
+
+#### `dashboard_api_key`
+
+Boolean to indicate if API Key is enabled
+
+Default: `false`
+
+#### `dashboard_language`
+
+Language displaying on the UI of WGDashboard. Please visit [](Change-Language.md) for languages is available
+
+Default: `en-US` (English)
+
+### `[Peers]`
+
+Default Settings on a new peer
+
+#### `peer_global_dns`
+
+DNS Server
+
+Default: `1.1.1.1`
+
+#### `peer_endpoint_allowed_ip`
+
+Endpoint Allowed IP
+
+Default: `0.0.0.0/0`
+
+#### `remote_endpoint`
+
+Remote Endpoint (i.e where your peers will connect to)
+
+Default: WGDashboard will retrieve the IP address of your system's default network interface.
+
+#### `peer_mtu`
+
+Maximum Transmit Unit
+
+Default: `1420`
+
+#### `peer_keep_alive`
+
+Persistent Keepalive
+
+Default: `21`
+
+#### `peer_display_mode`
+
+How peer will display
+
+Default: `grid`
+
+### `[Other]`
+
+For some other usages, no need to edit manually
+
+#### `welcome_session`
+
+Indicator if welcome session is finished for a freshly installed WGDashboard
+
+Default: `false`
+
+### `[Database]`
+
+Configuration of database. Currently, you will need to manually edit this file to configure database
+
+#### `type`
+
+Which type of database is currently using. WGDashboard is available to use different types of database **since v4.3.0**. The available types are `sqlite`, `postgresql` and `mysql`
+
+Default: `sqlite`
+
+> All 4 fields below are required when `type` set to `postgrsql` or `mysql`
+
+#### `host`
+
+Database server's IP address to domain.
+
+#### `port`
+
+Database server's port.
+
+#### `username` {id="database_username"}
+
+Username used to connect database server.
+
+> Please ensure your username is permission to **create databases**
+
+#### `password` {id="database_password"}
+
+Password of the username above
+
+### `[Email]`
+
+Configurations for WGDashboard's SMTP service.
+
+> All fields in this section are default in **blank**
+
+#### `server` {id="email_server"}
+
+Domain or IP address of the SMTP server you wish to use
+
+#### `port` {id="email_port"}
+
+Port of the SMTP server you wish to use
+
+#### `encryption`
+
+This field can be set to **blank** or `STARTTLS` if you wish to use TLS with SMTP
+
+#### `username` {id="email_username"}
+
+The username used to sign in to the SMTP server
+
+#### `email_password`
+
+Password of the username above to sign in to the SMTP server
+
+#### `send_from`
+
+This is sender's name to display on the email you sent out. It can be only email or name with email, for example:
+
+`onboarding@wgdashboard.dev` or `WGDashboard <onboarding@wgdashboard.dev>`
+
+#### `email_template`
+
+This is the template you can set and will apply when you want to sent out an configuration. The template is enabled with Jinja template, for more information: [](Email-Service.md)
+
+### `[WireGuardConfiguration]`
+
+Settings for WireGuard configurations
+
+#### `autostart`
+
+A pipeline separated list of configuration names that WGDashboard will toggle when start up.
+
 
 ## Generating QR code and peer configuration file (.conf)
 

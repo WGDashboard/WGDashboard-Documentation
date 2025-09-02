@@ -19,6 +19,7 @@
     <toc-element topic="🪜-Usage.md">
         <toc-element topic="Run-WGDashboard-as-a-System-Service.md"/>
         <toc-element topic="Use-SSL-TLS-with-WGDashboard.md"/>
+        <toc-element topic="Add-URL-Prefix-to-WGDashboard.md"/>
     </toc-element>
     <toc-element topic="❓-Update.md"/>
     <toc-element topic="User-Guides.md">
@@ -88,6 +89,12 @@
     </toc-element>
     <toc-element topic="🔍-Screenshot.md"/>
     <toc-element topic="🕰️-Changelogs.md">
+        <toc-element topic="v4-2-5.md"/>
+        <toc-element topic="v4-2-4.md"/>
+        <toc-element topic="v4-2-3.md"/>
+        <toc-element topic="v4-2-2.md"/>
+        <toc-element topic="v4-2-1.md"/>
+        <toc-element topic="v4-2-0.md"/>
         <toc-element topic="v4-1-4.md"/>
         <toc-element topic="v4-1-3.md"/>
         <toc-element topic="v4-1-2.md"/>
