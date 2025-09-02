@@ -1,6 +1,6 @@
 # 💻 Demo
 
-Access Link: [](https://wgd-demo.donaldzou.dev)
+Access Link: [](https://demo.wgdashboard.dev)
 
 If you would like to try out WGDashboard, feel free to access the link above. You won't be able to actually connect it with WireGuard since I blocked all Post/Pre script.
 
