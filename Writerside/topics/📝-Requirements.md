@@ -25,6 +25,7 @@
     </tab>
     <tab title="Debian">
         <list type="bullet">
+            <li>13.0</li>
 			<li>12.6</li>
 			<li>11.10</li>
 		</list>

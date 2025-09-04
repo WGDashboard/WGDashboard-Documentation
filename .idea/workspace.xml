@@ -32,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v4.2-dev" />
+        <entry key="$PROJECT_DIR$" value="v4.3-dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -137,6 +137,9 @@
     "settings.editor.selected.configurable": "settings.json.schema",
     "vue.rearranger.settings.migration": "true",
     "writerside.last.selected.productWGDashboard-Documentation": "wd"
+  },
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
   }
 }]]></component>
   <component name="RecentsManager">

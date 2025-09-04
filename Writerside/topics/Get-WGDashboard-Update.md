@@ -14,7 +14,7 @@ Get WGDashboard update
 
 ```json
 {
-	"data": "https://github.com/donaldzou/WGDashboard/releases/tag/v4.0.4",
+	"data": "https://github.com/WGDashboard/WGDashboard/releases/tag/v4.0.4",
 	"message": "v4.0.4 is now available for update!",
 	"status": true
 }

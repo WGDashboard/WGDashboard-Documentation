@@ -12,6 +12,7 @@
     - Restrict peers
     - Generate QR Code and `.conf` file for peers, share it through a public link
     - Schedule jobs to delete / restrict peer when conditions are met
+    - Assign peers to clients
 - View real time peer status
 - Testing tool: Ping and Traceroute to your peer
 - [](Change-Language.md)

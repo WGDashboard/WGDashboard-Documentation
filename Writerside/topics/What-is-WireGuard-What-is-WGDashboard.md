@@ -40,7 +40,7 @@ WireGuard and WGDashboard are often used together, but they serve different purp
 
 If you encounter issues specifically with **WireGuard** (e.g., connectivity or tunnel errors), refer to WireGuard’s [official documentation](https://www.wireguard.com/) or support. 
 
-**WGDashboard** issues related to the interface, peer management, or dashboard functionality can be reported [here](https://github.com/donaldzou/WGDashboard).
+**WGDashboard** issues related to the interface, peer management, or dashboard functionality can be reported [here](https://github.com/WGDashboard/WGDashboard).
 
 A default configuration file (`wg0.conf`) is already included in the standard installation. This configuration is designed to simplify the setup and enhance understanding for new users. You can view and edit it using:
 

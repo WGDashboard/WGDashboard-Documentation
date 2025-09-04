@@ -4,7 +4,7 @@ Current, we have 2 beloved contributors provided solutions for hosting WGDashboa
 
 <tabs>
 <tab title="Solution 1 from @DaanSelen">
-Please visit <a href="https://github.com/donaldzou/WGDashboard/blob/main/docker/README.md">
+Please visit <a href="https://github.com/WGDashboard/WGDashboard/blob/main/docker/README.md">
 <code>Docker-explain.md</code>
 </a> for most up-to-date information
 </tab>
@@ -19,5 +19,5 @@ Please visit
 </tabs>
 
 <note>
-For questions or issues related to Docker, please visit <a href="https://github.com/donaldzou/WGDashboard/issues/272">issue #272</a>
+For questions or issues related to Docker, please visit <a href="https://github.com/WGDashboard/WGDashboard/issues/272">issue #272</a>
 </note>

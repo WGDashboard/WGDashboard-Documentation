@@ -166,7 +166,7 @@ Default: `false`
 
 ### `[Database]`
 
-Configuration of database. Currently, you will need to manually edit this file to configure database
+Configuration of database. Currently, you will need to manually edit this file to configure database, before making changes, please stop WGDashboard first.
 
 #### `type`
 
@@ -193,6 +193,7 @@ Username used to connect database server.
 #### `password` {id="database_password"}
 
 Password of the username above
+
 
 ### `[Email]`
 
