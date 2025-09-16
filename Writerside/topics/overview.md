@@ -8,9 +8,7 @@ It has been more than 5 months since our last release, and we are happy to annou
 
 - We've moved the WGDashboard project from my personal GitHub to the [WGDashboard Organization](https://github.com/WGDashboard)! If you wish, please give us a follow, thank you so much ❤️
 - A new **Client** side dashboard is available, where clients can sign in to view WireGuard Peers assigned to them. For more information, please visit: [](Client-Side-Dashboard.md) ([#720](https://github.com/WGDashboard/WGDashboard/issues/720))
-  
-  <inline-frame src="https://www.youtube.com/embed/tYCd0zxfYHE?si=s9MWxsyI1o2GyKi-" width="100%" height="400px"></inline-frame>
-
+    <video src="https://www.youtube.com/watch?v=tYCd0zxfYHE"></video>
 - Plugins are now available for developers who want to extend the use of WGDashboard, for more information, please visit: [](WGDashboard-Plugins.md). **Note: This feature is still under experiment but is available to use**
 
 ## 🎉 New Features
