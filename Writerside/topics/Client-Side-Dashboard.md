@@ -1,6 +1,6 @@
 # Client Side App
 
-<inline-frame src="https://www.youtube.com/embed/tYCd0zxfYHE?si=s9MWxsyI1o2GyKi-" width="100%" height="400px"></inline-frame>
+<video src="https://www.youtube.com/watch?v=tYCd0zxfYHE"></video>
 
 The new client side app is under `clients` of your WGDashboard. If your WGD is in `https://wgd.com`, then client side app is in `https://wgd.com/client`
 
