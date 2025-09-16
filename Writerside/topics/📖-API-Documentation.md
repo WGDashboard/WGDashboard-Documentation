@@ -65,4 +65,4 @@ There are 2 types of URL format
 
 ## Now you're ready
 
-Please visit this page for details of [](API-Endpoints.md)
+Please visit this page for details of [](Endpoints.md)

@@ -1,7 +1,5 @@
 # Client Side App
 
-<video src="https://www.youtube.com/watch?v=tYCd0zxfYHE"></video>
-
 The new client side app is under `clients` of your WGDashboard. If your WGD is in `https://wgd.com`, then client side app is in `https://wgd.com/client`
 
 > **Not required, but strongly recommend**
