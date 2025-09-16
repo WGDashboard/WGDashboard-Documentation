@@ -64,4 +64,162 @@
         <description>Created after removal of "New Endpoint" from WGDashboard Documentation</description>
         <accepts>New-Endpoint.html</accepts>
     </rule>
+    <rule id="585fa4f0">
+        <description>Created after removal of "Handshake to Server" from WGDashboard</description>
+        <accepts>Handshake-to-Server.html</accepts>
+    </rule>
+    <rule id="1dfbe4a5">
+        <description>Created after removal of "Validate Authentication" from WGDashboard</description>
+        <accepts>Validate-Authentication.html</accepts>
+    </rule>
+    <rule id="176f747c">
+        <description>Created after removal of "Require Authentication" from WGDashboard</description>
+        <accepts>Require-Authentication.html</accepts>
+    </rule>
+    <rule id="6756147c">
+        <description>Created after removal of "Authenticate" from WGDashboard</description>
+        <accepts>Authenticate.html</accepts>
+    </rule>
+    <rule id="60ed23a4">
+        <description>Created after removal of "Sign Out" from WGDashboard</description>
+        <accepts>Sign-Out.html</accepts>
+    </rule>
+    <rule id="71d3a67e">
+        <description>Created after removal of "Get WGDashboard Configuration" from WGDashboard</description>
+        <accepts>Get-WGDashboard-Configuration.html</accepts>
+    </rule>
+    <rule id="c61528c">
+        <description>Created after removal of "Get WGDashboard Theme" from WGDashboard</description>
+        <accepts>Get-WGDashboard-Theme.html</accepts>
+    </rule>
+    <rule id="194ae63c">
+        <description>Created after removal of "Get WGDashboard Version" from WGDashboard</description>
+        <accepts>Get-WGDashboard-Version.html</accepts>
+    </rule>
+    <rule id="75d0d46a">
+        <description>Created after removal of "Get WGDashboard Update" from WGDashboard</description>
+        <accepts>Get-WGDashboard-Update.html</accepts>
+    </rule>
+    <rule id="15b09082">
+        <description>Created after removal of "Get WireGuard Configurations" from WGDashboard</description>
+        <accepts>Get-WireGuard-Configurations.html</accepts>
+    </rule>
+    <rule id="6c70f10e">
+        <description>Created after removal of "Get WireGuard Configuration Peers Information" from WGDashboard
+        </description>
+        <accepts>Get-WireGuard-Configuration-Peers-Information.html</accepts>
+    </rule>
+    <rule id="1f684a5d">
+        <description>Created after removal of "Get WireGuard Configuration Raw File Content" from WGDashboard
+        </description>
+        <accepts>Get-WireGuard-Configuration-Raw-File-Content.html</accepts>
+    </rule>
+    <rule id="5b7abea2">
+        <description>Created after removal of "Get WireGuard Configuration Backup" from WGDashboard</description>
+        <accepts>Get-WireGuard-Configuration-Backup.html</accepts>
+    </rule>
+    <rule id="1c7c1f48">
+        <description>Created after removal of "Get All WireGuard Configuration Backup" from WGDashboard</description>
+        <accepts>Get-All-WireGuard-Configuration-Backup.html</accepts>
+    </rule>
+    <rule id="587a7d9f">
+        <description>Created after removal of "Add WireGuard Configuration" from WGDashboard</description>
+        <accepts>Add-WireGuard-Configuration.html</accepts>
+    </rule>
+    <rule id="397d1ef7">
+        <description>Created after removal of "Toggle WireGuard Configuration" from WGDashboard</description>
+        <accepts>Toggle-WireGuard-Configuration.html</accepts>
+    </rule>
+    <rule id="1d3375f0">
+        <description>Created after removal of "Update WireGuard Configuration" from WGDashboard</description>
+        <accepts>Update-WireGuard-Configuration.html</accepts>
+    </rule>
+    <rule id="edca496">
+        <description>Created after removal of "Delete WireGuard Configuration" from WGDashboard</description>
+        <accepts>Delete-WireGuard-Configuration.html</accepts>
+    </rule>
+    <rule id="62ae6484">
+        <description>Created after removal of "Delete WireGuard Configuration Backup" from WGDashboard</description>
+        <accepts>Delete-WireGuard-Configuration-Backup.html</accepts>
+    </rule>
+    <rule id="56c41e7c">
+        <description>Created after removal of "Get WGDashboard API Keys" from WGDashboard</description>
+        <accepts>Get-WGDashboard-API-Keys.html</accepts>
+    </rule>
+    <rule id="45287121">
+        <description>Created after removal of "Add WGDashboard API Key" from WGDashboard</description>
+        <accepts>Add-WGDashboard-API-Key.html</accepts>
+    </rule>
+    <rule id="6a8afc84">
+        <description>Created after removal of "Delete WGDashboard API Key" from WGDashboard</description>
+        <accepts>Delete-WGDashboard-API-Key.html</accepts>
+    </rule>
+    <rule id="2b9137c0">
+        <description>Created after removal of "Update Peer Settings" from WGDashboard</description>
+        <accepts>Update-Peer-Settings.html</accepts>
+    </rule>
+    <rule id="7eee9fd0">
+        <description>Created after removal of "Reset Peer Data Usage" from WGDashboard</description>
+        <accepts>Reset-Peer-Data-Usage.html</accepts>
+    </rule>
+    <rule id="19c983e6">
+        <description>Created after removal of "Add Peers" from WGDashboard</description>
+        <accepts>Add-Peers.html</accepts>
+    </rule>
+    <rule id="2082afa7">
+        <description>Created after removal of "Delete Peers" from WGDashboard</description>
+        <accepts>Delete-Peers.html</accepts>
+    </rule>
+    <rule id="3b707660">
+        <description>Created after removal of "Restrict Peers" from WGDashboard</description>
+        <accepts>Restrict-Peers.html</accepts>
+    </rule>
+    <rule id="f9fe234">
+        <description>Created after removal of "Download Peer" from WGDashboard</description>
+        <accepts>Download-Peer.html</accepts>
+    </rule>
+    <rule id="205596b1">
+        <description>Created after removal of "Download All Peers" from WGDashboard</description>
+        <accepts>Download-All-Peers.html</accepts>
+    </rule>
+    <rule id="42118d63">
+        <description>Created after removal of "Allow Access Peers" from WGDashboard</description>
+        <accepts>Allow-Access-Peers.html</accepts>
+    </rule>
+    <rule id="6a27c260">
+        <description>Created after removal of "Create Share Peer URL" from WGDashboard</description>
+        <accepts>Create-Share-Peer-URL.html</accepts>
+    </rule>
+    <rule id="1eb0d85b">
+        <description>Created after removal of "Update Share Peer URL" from WGDashboard</description>
+        <accepts>Update-Share-Peer-URL.html</accepts>
+    </rule>
+    <rule id="3f31a82e">
+        <description>Created after removal of "Get Share Peer URL" from WGDashboard</description>
+        <accepts>Get-Share-Peer-URL.html</accepts>
+    </rule>
+    <rule id="342ecaa4">
+        <description>Created after removal of "Save Peer Schedule Job" from WGDashboard</description>
+        <accepts>Save-Peer-Schedule-Job.html</accepts>
+    </rule>
+    <rule id="2b4cb6f0">
+        <description>Created after removal of "Delete Peer Schedule Job" from WGDashboard</description>
+        <accepts>Delete-Peer-Schedule-Job.html</accepts>
+    </rule>
+    <rule id="13948112">
+        <description>Created after removal of "Get Peer Schedule Job Logs" from WGDashboard</description>
+        <accepts>Get-Peer-Schedule-Job-Logs.html</accepts>
+    </rule>
+    <rule id="231e2f0e">
+        <description>Created after removal of "Ping" from WGDashboard</description>
+        <accepts>Ping.html</accepts>
+    </rule>
+    <rule id="40ff344a">
+        <description>Created after removal of "Traceroute" from WGDashboard</description>
+        <accepts>Traceroute.html</accepts>
+    </rule>
+    <rule id="410c9ebb">
+        <description>Created after removal of "Legacy Endpoints (v4.1.4 or below)" from WGDashboard</description>
+        <accepts>API-Endpoints.html</accepts>
+    </rule>
 </rules>
