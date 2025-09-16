@@ -30,7 +30,7 @@ sudo ./wgd.sh update
 
 2. Update the dashboard
     ```shell
-    git pull https://github.com/donaldzou/WGDashboard.git --force
+    git pull https://github.com/WGDashboard/WGDashboard.git --force
     ```
 
 3. Install

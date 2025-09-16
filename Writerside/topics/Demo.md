@@ -8,4 +8,4 @@ Username: `admin`
 
 Password: `admin`
 
-> **Please don't abuse server 🥺, and do not put any personal information on it.** If you can't access it, [please let me know here](https://github.com/donaldzou/WGDashboard/issues/695).
+> **Please don't abuse server 🥺, and do not put any personal information on it.** If you can't access it, [please let me know here](https://github.com/WGDashboard/WGDashboard/issues/695).

@@ -17,7 +17,7 @@ These commands are tested by myself in each operating system listed below. It co
 | Operating System                | Version(s)                                   |
 |---------------------------------|----------------------------------------------|
 | Ubuntu                          | 20.04 (LTS), 22.04 (LTS), 24.04 (LTS), 24.10 |
-| Debian                          | 12.6, 11.10                                  |
+| Debian                          | 11.0, 12.6, 13.0, 13.1                       |
 | Red Hat Enterprise Linux (RHEL) | 9.4                                          |
 | CentOS                          | 9-Stream                                     |
 | AlmaLinux                       | 9.4 (Seafoam Ocelot)                         |
@@ -38,7 +38,7 @@ Please make sure you understand these commands before you run them.
              sudo add-apt-repository ppa:deadsnakes/ppa -y && \
              sudo apt-get update -y && \
              sudo apt-get install python3.10 python3.10-distutils wireguard-tools net-tools --no-install-recommends -y && \
-             git clone https://github.com/donaldzou/WGDashboard.git && \
+             git clone https://github.com/WGDashboard/WGDashboard.git && \
              cd WGDashboard/src && \
              chmod +x ./wgd.sh && \
              ./wgd.sh install && \
@@ -50,7 +50,7 @@ Please make sure you understand these commands before you run them.
          <code-block lang="shell">
              sudo apt-get update -y && \
              sudo apt install wireguard-tools net-tools --no-install-recommends -y && \
-             git clone https://github.com/donaldzou/WGDashboard.git && \
+             git clone https://github.com/WGDashboard/WGDashboard.git && \
              cd ./WGDashboard/src && \
              chmod +x ./wgd.sh && \
              ./wgd.sh install && \
@@ -60,12 +60,12 @@ Please make sure you understand these commands before you run them.
       </chapter>
    </tab>
    <tab title="Debian">
-      <chapter title="12.6">
+      <chapter title="12.6, 13.0">
          <code-block lang="shell">
              apt-get install sudo git iptables -y && \ 
              sudo apt-get update && \
              sudo apt install wireguard-tools net-tools && \
-             git clone https://github.com/donaldzou/WGDashboard.git && \
+             git clone https://github.com/WGDashboard/WGDashboard.git && \
              cd ./WGDashboard/src && \
              chmod +x ./wgd.sh && \
              ./wgd.sh install && \
@@ -86,7 +86,7 @@ Please make sure you understand these commands before you run them.
              sudo make && \ 
              sudo make altinstall && \ 
              cd .. && \ 
-             git clone https://github.com/donaldzou/WGDashboard.git && \ 
+             git clone https://github.com/WGDashboard/WGDashboard.git && \ 
              cd ./WGDashboard/src && \ 
              chmod +x ./wgd.sh && \ 
              ./wgd.sh install && \ 
@@ -99,7 +99,7 @@ Please make sure you understand these commands before you run them.
       <chapter title="9.4">
          <code-block lang="shell">
              sudo yum install wireguard-tools net-tools git python3.11 -y && \
-             git clone https://github.com/donaldzou/WGDashboard.git && \
+             git clone https://github.com/WGDashboard/WGDashboard.git && \
              cd ./WGDashboard/src && \
              chmod +x ./wgd.sh && \
              ./wgd.sh install && \
@@ -115,7 +115,7 @@ Please make sure you understand these commands before you run them.
       <chapter title="9-Stream">
          <code-block lang="shell">
              sudo yum install wireguard-tools net-tools git python3.11 -y && \
-             git clone https://github.com/donaldzou/WGDashboard.git && \
+             git clone https://github.com/WGDashboard/WGDashboard.git && \
              cd ./WGDashboard/src && \
              chmod +x ./wgd.sh && \
              ./wgd.sh install && \
@@ -131,7 +131,7 @@ Please make sure you understand these commands before you run them.
         <chapter title="9.4 (Seafoam Ocelot)">
             <code-block lang="shell">
                 sudo yum install wireguard-tools net-tools git python3.11 -y && \
-                git clone https://github.com/donaldzou/WGDashboard.git && \
+                git clone https://github.com/WGDashboard/WGDashboard.git && \
                 cd ./WGDashboard/src && \
                 chmod +x ./wgd.sh && \
                 ./wgd.sh install && \
@@ -147,7 +147,7 @@ Please make sure you understand these commands before you run them.
       <chapter title="38, 39, 40, 41">
          <code-block lang="shell">
              sudo yum install wireguard-tools net-tools git -y && \
-             git clone https://github.com/donaldzou/WGDashboard.git && \
+             git clone https://github.com/WGDashboard/WGDashboard.git && \
              cd ./WGDashboard/src && \
              chmod +x ./wgd.sh && \
              ./wgd.sh install && \
@@ -163,7 +163,7 @@ Please make sure you understand these commands before you run them.
                rc-service networking --quiet start ; \
                apk update ; \
                apk add wireguard-tools python3 python3-dev git iptables net-tools gcc musl-dev linux-headers sudo ; \
-               git clone https://github.com/donaldzou/WGDashboard.git ; \
+               git clone https://github.com/WGDashboard/WGDashboard.git ; \
                cd ./WGDashboard/src ; \
                chmod +x ./wgd.sh ; \
                ./wgd.sh install
@@ -174,7 +174,7 @@ Please make sure you understand these commands before you run them.
       <chapter title="9.4">
          <code-block lang="shell">
              sudo yum install wireguard-tools net-tools git python3.11 -y && \
-             git clone https://github.com/donaldzou/WGDashboard.git && \
+             git clone https://github.com/WGDashboard/WGDashboard.git && \
              cd ./WGDashboard/src && \
              chmod +x ./wgd.sh && \
              ./wgd.sh install && \
@@ -192,7 +192,7 @@ Please make sure you understand these commands before you run them.
              apt-get install sudo git iptables -y && \ 
              sudo apt-get update && \
              sudo apt install wireguard-tools net-tools && \
-             git clone https://github.com/donaldzou/WGDashboard.git && \
+             git clone https://github.com/WGDashboard/WGDashboard.git && \
              cd ./WGDashboard/src && \
              chmod +x ./wgd.sh && \
              ./wgd.sh install && \
@@ -208,7 +208,6 @@ Please make sure you understand these commands before you run them.
 
 Please visit this [community script](https://community-scripts.github.io/ProxmoxVE/scripts?id=wireguard) to install.
 
-
 ## Option 4: Manually install WGDashboard
 
 > To ensure a smooth installation process, please make sure you have the following installed:
@@ -218,31 +217,27 @@ Please visit this [community script](https://community-scripts.github.io/Proxmox
 > - `net-tools`
 
 1. Download WGDashboard
-
    ```shell
-   git clone https://github.com/donaldzou/WGDashboard.git
-
+   git clone https://github.com/WGDashboard/WGDashboard.git
+   ```
+   
 2. Open the WGDashboard folder
-
    ```shell
    cd WGDashboard/src
    ```
 
 3. Install WGDashboard
-
    ```shell
    sudo chmod u+x wgd.sh && \
    sudo ./wgd.sh install
    ```
 
 4. Give read and execute permission to root of the WireGuard configuration folder, you can change the path if your configuration files are not stored in `/etc/wireguard`
-
    ```shell
    sudo chmod -R 755 /etc/wireguard
    ```
 
 5. Run WGDashboard
-
    ```shell
    sudo ./wgd.sh start
    ```
