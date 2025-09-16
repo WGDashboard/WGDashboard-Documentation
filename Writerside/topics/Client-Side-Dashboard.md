@@ -1,6 +1,11 @@
 # Client Side App
 
+<inline-frame src="https://www.youtube.com/embed/tYCd0zxfYHE?si=s9MWxsyI1o2GyKi-" width="100%" height="400px"></inline-frame>
+
 The new client side app is under `clients` of your WGDashboard. If your WGD is in `https://wgd.com`, then client side app is in `https://wgd.com/client`
+
+> **Not required, but strongly recommend**
+> Setup [](Email-Service.md) so that your clients can receive service emails
 
 ## Usage
 
@@ -80,9 +85,7 @@ You can do the following:
    3. Click on the green **Plus** button next to each peer to assign it to the client
 3. Unassign Peer
    1. Simply click on the red **Trash Bin** button to unassign
-4. Reset Client's Password
-   1. If you have [Email Service](Email-Service.md) setup, the reset link will automatically send to client's email address, if not you should see a link popped after you clicked reset.
-5. Delete Client
+4. Delete Client
    1. If you delete a local clients, all information will get remove
    2. If you delete an OIDC client, all information will get remove, but it still able to sign back in unless you removed permission to access on the OIDC provider.
 

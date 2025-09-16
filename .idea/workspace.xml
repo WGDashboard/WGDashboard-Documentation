@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32bed0ad-2b71-4d1a-8277-d63a8faa5c1b" name="Changes" comment="Added languages">
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/Add-URL-Prefix-to-WGDashboard.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/v4-2-0.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/v4-2-1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/v4-2-2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/v4-2-3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/v4-2-4.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/v4-2-5.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Client-Side-Dashboard.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/Client-Side-Dashboard.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Writerside/topics/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/overview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/✂️-Dashboard-Configuration.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/✂️-Dashboard-Configuration.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/wd.tree" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/wd.tree" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +119,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "Writerside.PDF (wd).executor": "Run",
     "Writerside.Web Archive (wd).executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "v4.3-dev",
     "last_opened_file_path": "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -137,9 +129,6 @@
     "settings.editor.selected.configurable": "settings.json.schema",
     "vue.rearranger.settings.migration": "true",
     "writerside.last.selected.productWGDashboard-Documentation": "wd"
-  },
-  "keyToStringList": {
-    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
   }
 }]]></component>
   <component name="RecentsManager">
@@ -215,6 +204,9 @@
       <workItem from="1755161579706" duration="470000" />
       <workItem from="1755423006255" duration="121000" />
       <workItem from="1756750955222" duration="10628000" />
+      <workItem from="1756958159513" duration="14187000" />
+      <workItem from="1757830319166" duration="1822000" />
+      <workItem from="1757960611713" duration="1547000" />
     </task>
     <servers />
   </component>
