@@ -17,7 +17,7 @@ These commands are tested by myself in each operating system listed below. It co
 | Operating System                | Version(s)                                   |
 |---------------------------------|----------------------------------------------|
 | Ubuntu                          | 20.04 (LTS), 22.04 (LTS), 24.04 (LTS), 24.10 |
-| Debian                          | 11.0, 12.6, 13.0                             |
+| Debian                          | 11.0, 12.6, 13.0, 13.1                       |
 | Red Hat Enterprise Linux (RHEL) | 9.4                                          |
 | CentOS                          | 9-Stream                                     |
 | AlmaLinux                       | 9.4 (Seafoam Ocelot)                         |

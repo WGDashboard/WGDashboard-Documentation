@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32bed0ad-2b71-4d1a-8277-d63a8faa5c1b" name="Changes" comment="Added languages">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Client-Side-Dashboard.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/Client-Side-Dashboard.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/overview.md" afterDir="false" />
-    </list>
+    <list default="true" id="32bed0ad-2b71-4d1a-8277-d63a8faa5c1b" name="Changes" comment="Added languages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,6 +125,31 @@
     "settings.editor.selected.configurable": "settings.json.schema",
     "vue.rearranger.settings.migration": "true",
     "writerside.last.selected.productWGDashboard-Documentation": "wd"
+  },
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/Add-URL-Prefix-to-WGDashboard.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/Change-Language.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/Client-Side-Dashboard.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/Cross-Server-Access.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/Demo.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/Email-Service.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/Features.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/User-Guides.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/WGDashboard-Desktop-App.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/WGDashboard-Plugins.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/Webhooks.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/overview.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/v4-2-0.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/v4-2-4.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/v4-2-5.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/✂️-Dashboard-Configuration.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/❓-Update.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/📝-Requirements.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/🛠-Install.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/🥘-Experimental-Features.md",
+      "/Users/donaldzou/OneDrive/UWO/WGDashboard-Documentation/Writerside/topics/🪜-Usage.md"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -206,7 +227,7 @@
       <workItem from="1756750955222" duration="10628000" />
       <workItem from="1756958159513" duration="14187000" />
       <workItem from="1757830319166" duration="1822000" />
-      <workItem from="1757960611713" duration="1547000" />
+      <workItem from="1757960611713" duration="1852000" />
     </task>
     <servers />
   </component>
