@@ -50,6 +50,6 @@ This restore option reverts the current configuration to the state inside the fi
 
 See the video as an example:  
 
-<img src="../images/example_restore.gif" alt="example restore video" width="950" height="425">
+<img src="../images/example_restore.gif" alt="example restore video" width="950" height="425"></img>
 
 <toc></toc>

@@ -21,7 +21,7 @@
             <a href="📝-Requirements.md" summary="Step 1 - Make sure your system meet the requirements"/>
             <a href="🛠-Install.md" summary="Step 2 - Now you can follow me to install WGDashboard"/>
             <a href="🪜-Usage.md" summary="Step 3 - Enjoy WGDashboard :)"/>
-            <a href="User-Guides.md" summary="User guides of WGDashboard"/>
+            <a href="friendly_guides.md" summary="User guides of WGDashboard"/>
         </primary>
         <secondary>
             <title>Know more about WGDashboard</title>

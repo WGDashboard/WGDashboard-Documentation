@@ -54,6 +54,7 @@ iptables -D FORWARD -i wg0 -j ACCEPT; iptables -D FORWARD -o wg0 -j ACCEPT; ipta
 </note>
 
 In my case it will look like this:
-![](Screenshot 2025-01-19 at 9.36.03 PM.png)
+
+![WGDashboard configuration iptables example](../images/iptables_example.png)
 
 then click **Save**. Now you can create peers and your traffic should go through your server.
